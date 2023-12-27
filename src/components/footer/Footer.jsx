@@ -4,6 +4,7 @@ import {
     FaInstagram,
     FaTwitter,
     FaLinkedin,
+    FaGithub,
 } from "react-icons/fa";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
@@ -41,6 +42,9 @@ const Footer = () => {
                     </span>
                     <span className="icon">
                         <FaLinkedin />
+                    </span>
+                    <span className="icon">
+                        <a href="https://github.com/Vaibhav25O/Filmora.git" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
                     </span>
                 </div>
             </ContentWrapper>
